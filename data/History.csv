@@ -1,4 +1,4 @@
 Date / Time,"Type / Ref","Related Order#","Order#","Bet#","Product","Quantity","Price","Boundary Price","SL","TP","Position Margin(GBP)","Value(GBP)","Amount(GBP)","Balance(GBP)","Amount Excluding Fee","Fee","Financing Annual Rate","Financing Amount(GBP)","Carrying Costs Annual Rate","Carrying Costs Amount(GBP)","Holding Rate","Holding Cost(GBP)","Offset(GBP)","Total(GBP)"
 "06.03.2015 13:31:34","Take Profit","-","O4-3P-EWGBR","T4-3P-B1PVS","EUR/USD","0.5","1.0902","-","-","-","-","5,451.00","24.85","125.75","",""
 "26.02.2015 13:31:47","Close Bet","O4-3P-EK8VM","O4-3P-EK98R","T4-3P-AS6NE","CAD/JPY","0.5","95.627","-","-","-","-","4,781.35","4.60","117.40","",""
-"25.02.2015 01:46:49","Close Bet","O4-3P-EFXT4","O4-3P-EFXW4","T4-3P-AQFD9","AUD/USD","0.5","0.78785","-",Updating "-","-","-","3,939.25","7.05","132.80","",""
+"25.02.2015 01:46:49","Close Bet","O4-3P-EFXT4","O4-3P-EFXW4","T4-3P-AQFD9","AUD/USD","0.5","0.78785","-","-","-","-","3,939.25","7.05","132.80","",""
