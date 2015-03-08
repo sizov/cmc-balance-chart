@@ -9,9 +9,6 @@ $(document).ready(function () {
     var balanceSeriesData = [],
         highchartsOptions = {
             title: {
-                text: 'CMC Account Balance'
-            },
-            subtitle: {
                 text: 'Chart of account balance based on CMC Markets exported CSV data'
             },
             xAxis: {
@@ -30,7 +27,6 @@ $(document).ready(function () {
                 headerFormat: '<b>{point.y:.2f}</b><br>',
                 pointFormat: '{point.x:%A, %b %e, %H:%M:%S}'
             },
-
             plotOptions: {
                 series: {
                     animation: false
@@ -41,13 +37,15 @@ $(document).ready(function () {
                     }
                 }
             },
-
             series: [
                 {
                     name: CMC_BALANCE_HEADER,
                     data: balanceSeriesData
                 }
-            ]
+            ],
+            rangeSelector: {
+                selected: 0.5
+            }
         };
 
     function parseDate(dateString) {
